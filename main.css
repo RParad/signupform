@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+.left-side .right-side {
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+}
+.left-side-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    min-width: 40%;
+    
+}
+.logo-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    opacity: 0.7;
+    color: white;
+    border: black solid;    
+}
+#logo {
+    width: min(80px, 100%);
+    height: min(80px, 100%);
+}
+.pic-credit {
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+}
+.right-side {
+    min-width: 60%;
+}
+.sign-up {
+    --bttnwidth: 147px;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(2*var(--bttnwidth));
+    justify-content:space-evenly;
+    overflow: auto;
+}
