@@ -54,6 +54,7 @@ h1.title {
     position: absolute;
     bottom: 0;
     color: aliceblue;
+    text-decoration: none;
 }
 .right-side {
     min-width: 55%;
@@ -114,4 +115,13 @@ p.signup-bttn {
     border-radius: 5px;
     box-shadow: rgb(207, 206, 206);
     border-color: none;
+}
+.log-in {
+    color: #596D48;
+}
+.link {
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
 }
