@@ -1,3 +1,8 @@
+/* @import url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf'); */
+@font-face {
+    font-family: norse;
+    src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf');
+}
 html, body {
     height: 100%;
     padding: 0px;
@@ -6,11 +11,17 @@ html, body {
 body {
     display: flex;
     flex-direction: row;
+    margin: 0px;
 }
 .left-side .right-side {
     height: 100%;
     border: 0px;
     padding: 0px;
+}
+h1.title {
+    font-family: norse, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+    font-size: 50px;
 }
 .left-side-container {
     display: flex;
@@ -21,7 +32,7 @@ body {
     height: 100%;
     border: 0px;
     padding: 0px;
-    min-width: 40%;
+    min-width: 45%;
     
 }
 .logo-title-container {
@@ -33,7 +44,7 @@ body {
     color: white;
     border: black solid;   
     position: relative;
-    top: -100px; 
+    top: -140px; 
 }
 #logo {
     width: min(80px, 100%);
@@ -45,8 +56,8 @@ body {
     color: aliceblue;
 }
 .right-side {
-    min-width: 60%;
-    background-color: rgba(235, 233, 233, 0.863);
+    min-width: 55%;
+    background-color: rgba(243, 243, 243, 0.904);
     
 }
 .sign-up {
@@ -54,15 +65,15 @@ body {
     align-items: space-between;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 50%;
+    max-width: 350px;
     margin: 10px;
 }
 div.form-fields {
     display: flex;
     flex-direction: column;
-    justify-items: space-between;
-    width: 50%;
+    margin-bottom: 20px;
     border-color: #596D48;
+    align-content: space-between;
 }
 p.para-1 {
     margin: 10px;
@@ -72,24 +83,25 @@ p.para-1 {
     box-shadow: 0px 2px 0px 2px rgb(207, 206, 206);
     background-color: white;
     position: relative;
-    top: 100px;
+    top: 140px;
 }
 .para-1 {
     display: flex;
     flex-direction: column;
     width: 75%;
     padding: 30px;
-}
-.bttn-signup {
     position: relative;
+    top: 100px;
+}
+div.bttn-signup {
+    position: relative;
+    top: 150px;
+    padding: 20px;
 }
 .signup-bttn {
     display: flex;
     flex-direction: column;
     position: relative;
-    /* align-items: center; */
-    top: 100px;
-    padding: 20px;
 }
 p.signup-bttn {
     padding: 1px;
